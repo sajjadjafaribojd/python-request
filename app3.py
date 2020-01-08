@@ -16,4 +16,4 @@ def getRequest(domainName):
     print(res.text) 
     print(json.loads(res.text))
 
-getRequest("mer-co.com")
+getRequest("example.com")
